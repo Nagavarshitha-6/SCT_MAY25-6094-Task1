@@ -1,0 +1,98 @@
+.home,.home1
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 280px;
+    margin-right: 50px;
+}
+.inner,.core,.inner1,.core1
+{
+   background-color: rgb(234, 224, 224);
+   height: 200px;
+   width: 450px;
+   margin: 30px;
+   text-align :center;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-decoration: none;
+}
+
+body
+{
+    background-color: white;
+}
+.board
+{
+    height:60px;
+    width:100%;
+    background-color: brown;
+    margin:0%;
+    padding:0%;
+    margin-bottom: 60px;
+    color:white;
+    align-content: baseline;
+    margin-bottom:10px;
+    display:flex;
+    flex-direction: row;
+}
+h1{
+    color: brown;
+}
+p{
+    padding:5px;
+    font-size:16px;
+}
+.inner:hover{
+    height:230px;
+    width:480px;
+}
+.core:hover{
+    height:230px;
+    width: 480px;
+}
+.inner1:hover{
+    height:230px;
+    width:480px;
+}
+.core1:hover{
+    height:230px;
+    width:480px;
+}
+.cof
+{
+    margin-left:10px;
+}
+.home2,.Login2,.Service2
+{
+text-decoration: none;
+color:white;
+margin-left: 40px;
+font-size:20px;
+width:11%;
+padding-top:20px;
+text-align:center;
+display: table-cell;
+vertical-align: center;
+}
+.home2{
+    margin-left: 800px;
+}
+.home2:hover
+{
+    color:black;
+    background-color: white;
+    border-radius: 50px;
+}
+.Login2:hover
+{
+    color:black;
+    background-color: white;
+     border-radius: 50px;
+}
+.Service2:hover
+{
+    color:black;
+    background-color: white;
+     border-radius: 50px;
+}

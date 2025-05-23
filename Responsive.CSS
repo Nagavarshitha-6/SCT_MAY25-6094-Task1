@@ -1,0 +1,69 @@
+.item
+{
+
+    height:60px;
+    display:flex;
+    flex-direction: row;
+    margin:10px;
+    text-align:center;   
+    color:white;
+}
+.login,.home,.service
+{
+  width:11%;
+  font-size:20px;
+  color : white;
+  padding-top:20px;
+  text-decoration:none;
+  text-shadow: 2px 2px red;
+}
+a:hover
+{
+    background-color: whitesmoke;
+    border-radius: 50px;
+    color:black;
+    text-shadow: none;
+}
+.price
+{
+background-image: url('https://static.vecteezy.com/system/resources/thumbnails/035/382/878/small/ai-generated-coffee-cup-on-the-table-free-photo.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment:scroll;
+color:white;
+margin-left:30px;
+
+}
+.hello
+{
+  color:red;
+  margin:0%;
+  padding:0%;
+}
+.he
+{
+  font-size:50px;
+  padding-right: 750px;
+}
+.hello1
+{
+  margin-left: 10px;
+}
+.coffee
+{
+  font-size:60px;
+  margin:0%;
+  padding:0%
+}
+.shop
+{
+  border-style:  groove;
+  border-color: red;
+  padding:5px;
+  background-color: rgb(125, 0, 0);
+  text-decoration: none;
+  color:white;
+}
+.cof{
+  color:red;
+}

@@ -1,0 +1,79 @@
+.robo
+{
+    padding-top: 5px;
+    color:white;
+}
+.loginboard1{
+    height:60px;
+    width:100%;
+    background-color: brown;
+    margin:0%;
+    padding:0%;
+    margin-bottom: 60px;
+    color:white;
+    align-content: baseline;
+    margin-bottom:10px;
+    display:flex;
+    flex-direction: row;
+}
+.home4,.Login4,.Service4
+{
+text-decoration: none;
+color:white;
+margin-left: 40px;
+font-size:20px;
+width:11%;
+padding-top:20px;
+text-align:center;
+display: table-cell;
+vertical-align: center;
+}
+.home4{
+    margin-left: 800px;
+}
+.home4:hover
+{
+    color:black;
+    background-color: white;
+    border-radius: 50px;
+}
+.Login4:hover
+{
+    color:black;
+    background-color: white;
+     border-radius: 50px;
+}
+.Service4:hover
+{
+    color:black;
+    background-color: white;
+    border-radius: 50px;
+}
+.loginform-creation
+{
+    width: 300px;
+    height: 200px;
+    padding:30px;
+    margin-top:150px;
+    margin-left:500px;
+   border-radius: 20px;
+   background-color: rgb(121, 121, 138);
+}
+body{
+    background-image: url('https://t3.ftcdn.net/jpg/03/15/40/34/360_F_315403482_MVo1gSOOfvwCwhLZ9hfVSB4MZuQilNrx.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.chitti
+{
+    font-size: 35px;
+    padding-left: 80px;
+}
+h1
+{
+   font-size:45px;
+}
+.cof
+{
+    margin-left:10px;
+}
