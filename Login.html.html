@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <title>Login</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <link rel="stylesheet" href="Login.css">
+    </head>
+    <body>
+        <div class="loginboard">
+        <h2 class="cof">Coffee shop</h2>
+        <a href="Responsive.html" class="home3">Home</a>
+        <a href="Login.html" class="Login3">Login</a>
+        <a href="Service.html" class="Service3">Services</a>
+        </div>
+        <div class="image1">
+        <div class="loginform-creation">
+        <label for="name" >Name</label>
+        <input id="name" class="won1" type="text" placeholder=" john" size="30">
+        <label for="email">Email</label>
+        <input id="email" class="won2" type="email" placeholder=" john@gmail.com" size="30" >
+        <label for="contact">Contact No</label>
+        <input id="contact" class="won3" type="text" placeholder=" 91-" size="30">
+        <button class="won4" onclick="submitForm()">Submit</button>
+        </div>
+        </div>
+        <script>
+    function submitForm() {
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const contact = document.getElementById("contact").value.trim();
+
+        // Basic validation
+        if (name === "" || email === "" || contact === "") {
+            alert("Please fill in all fields.");
+            return;
+        }
+
+        // Email format check
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailPattern.test(email)) {
+            alert("Please enter a valid email.");
+            return;
+        }
+
+        // Contact number check (basic check for digits)
+        if (!/^\d{10}$/.test(contact)) {
+            alert("Please enter a valid 10-digit contact number.");
+            return;
+        }
+
+        alert(`Thank you, ${name}! Your information has been submitted.`);
+        
+        // Optional: clear the form
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("contact").value = "";
+    }
+</script>
+    </body>
+</html>
