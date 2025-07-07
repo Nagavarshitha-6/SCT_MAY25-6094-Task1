@@ -1,84 +1,81 @@
-.loginboard{
-    height:60px;
-    width:100%;
-    background-color: brown;
-    margin:0%;
-    padding:0%;
-    margin-bottom: 60px;
-    color:white;
-    align-content: baseline;
-    margin-bottom:10px;
-    display:flex;
-    flex-direction: row;
-}
-.cof
-{
-    margin-left:10px;
-}
-.home3,.Login3,.Service3
-{
-text-decoration: none;
-color:white;
-margin-left: 40px;
-font-size:20px;
-width:11%;
-padding-top:20px;
-text-align:center;
-display: table-cell;
-vertical-align: center;
-}
-.home3{
-    margin-left: 800px;
-}
-.home3:hover
-{
-    color:black;
-    background-color: white;
-    border-radius: 50px;
-}
-.Login3:hover
-{
-    color:black;
-    background-color: white;
-     border-radius: 50px;
-}
-.Service3:hover
-{
-    color:black;
-    background-color: white;
-    border-radius: 50px;
-}
-.loginform-creation
-{
-    width: 300px;
-    height: 250px;
-    padding:30px;
-    margin-top:150px;
-    margin-left:600px;
-   border-radius: 20px;
-   background-color:rgb(201, 225, 188);
-   display: flex;
-   flex-direction: column;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
-}
-.won1,.won2,.won3
-{
-    margin-bottom:20px;
-    border-radius: 20px;
-    padding-bottom: 10px;;
-}
-
-body{
-    background-image: url(https://media.istockphoto.com/id/1215781496/photo/green-coffee-beans-background.jpg?s=612x612&w=0&k=20&c=WGCHb8LWlpjRD7vROMYeZ2f3Gx21O-USVWg9SQ1S8iE=);
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(https://media.istockphoto.com/id/1215781496/photo/green-coffee-beans-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.won4
-{
-    line-height: 20px;
+
+.loginboard {
+    background-color: brown;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.cof {
+    font-size: 24px;
+}
+
+.home3, .Login3, .Service3 {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.home3:hover, .Login3:hover, .Service3:hover {
+    background-color: white;
+    color: black;
+}
+
+.loginform-creation {
+    max-width: 400px;
+    margin: 80px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.won4 {
     background-color: red;
     color: white;
-    max-width: fit-content;
-    text-align: center;
-    margin-left: 130px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: center;
+    width: fit-content;
+}
+
+@media (max-width: 600px) {
+    .loginboard {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .loginform-creation {
+        margin: 40px 20px;
+        padding: 20px;
+    }
+
+    .cof {
+        margin-bottom: 10px;
+    }
 }
